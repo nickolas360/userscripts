@@ -21,8 +21,15 @@ List of userscripts
   \[[Download/Install][2]\]\
   Download files from MediaFire (mediafire.com).
 
+* **Droplr**
+  ([droplr.user.js][3])
+  \[[Download/Install][4]\]\
+  Download files from Droplr (d.pr).
+
 [1]: mediafire.user.js
 [2]: https://github.com/taylordotfish/userscripts/raw/master/mediafire.user.js
+[3]: droplr.user.js
+[4]: https://github.com/taylordotfish/userscripts/raw/master/droplr.user.js
 
 
 Installing
