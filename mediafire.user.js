@@ -2,8 +2,9 @@
 // @name        MediaFire
 // @namespace   https://taylor.fish/userscripts/
 // @description Download files from MediaFire (mediafire.com).
-// @include     /^https?://(www.)?mediafire.com/file/.*$/
-// @version     0.1.0
+// @match       *://mediafire.com/file/*
+// @match       *://www.mediafire.com/file/*
+// @version     0.1.1
 // @grant       none
 // ==/UserScript==
 
