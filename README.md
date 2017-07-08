@@ -26,10 +26,17 @@ List of userscripts
   \[[Download/Install][4]\]\
   Download files from Droplr (d.pr).
 
+* **Dropbox**
+  ([dropbox.user.js][5])
+  \[[Download/Install][6]\]\
+  Download files from Dropbox (dropbox.com).
+
 [1]: mediafire.user.js
 [2]: https://github.com/taylordotfish/userscripts/raw/master/mediafire.user.js
 [3]: droplr.user.js
 [4]: https://github.com/taylordotfish/userscripts/raw/master/droplr.user.js
+[5]: dropbox.user.js
+[6]: https://github.com/taylordotfish/userscripts/raw/master/dropbox.user.js
 
 
 Installing
