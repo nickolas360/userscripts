@@ -4,7 +4,7 @@
 // @description Download files from Dropbox (dropbox.com).
 // @match       *://dropbox.com/s/*
 // @match       *://www.dropbox.com/s/*
-// @version     0.1.0
+// @version     0.1.1
 // @grant       none
 // ==/UserScript==
 
@@ -42,6 +42,10 @@
  */
 
 (function() {
+    if (document.contentType != null && document.contentType !== "text/html") {
+        return;
+    }
+
     var baseURL = window.location.origin + window.location.pathname;
     var rawURL = baseURL + "?raw=1";
     var downloadURL = baseURL + "?dl=1";
