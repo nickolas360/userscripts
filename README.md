@@ -31,12 +31,19 @@ List of userscripts
   \[[Download/Install][6]\]\
   Download files from Dropbox (dropbox.com).
 
+* **Google Drive**
+  ([google-drive.user.js][7])
+  \[[Download/Install][8]\]\
+  Download files from Google Drive (drive.google.com).
+
 [1]: mediafire.user.js
 [2]: https://github.com/taylordotfish/userscripts/raw/master/mediafire.user.js
 [3]: droplr.user.js
 [4]: https://github.com/taylordotfish/userscripts/raw/master/droplr.user.js
 [5]: dropbox.user.js
 [6]: https://github.com/taylordotfish/userscripts/raw/master/dropbox.user.js
+[7]: google-drive.user.js
+[8]: https://github.com/taylordotfish/userscripts/raw/master/google-drive.user.js
 
 
 Installing
