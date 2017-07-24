@@ -3,7 +3,7 @@
 // @namespace   https://taylor.fish/userscripts/
 // @description Show <noscript> tags when JS is disabled.
 // @match       *://*/*
-// @version     0.1.0
+// @version     0.1.1
 // @grant       none
 // ==/UserScript==
 
@@ -51,8 +51,8 @@
 
     document.body.insertAdjacentHTML(
         "beforeend",
-        '<a id="__script-check" href="#" style="display: none;" onclick="' +
-        scriptCheckJS + '"></a>'
+        '<button id="__script-check" style="display: none;" onclick="' +
+        scriptCheckJS + '"></button>'
     );
 
     document.body.lastChild.click();
