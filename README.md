@@ -36,6 +36,13 @@ List of userscripts
   \[[Download/Install][8]\]\
   Download files from Google Drive (drive.google.com).
 
+* **\<noscript\> Tags**
+  ([noscript.user.js][9])
+  \[[Download/Install][10]\]\
+  Show \<noscript\> tags on pages where JavaScript is disabled. Some sites
+  work without JavaScript only if \<noscript\> tags are shown, but some script
+  blockers might not show them.
+
 [1]: mediafire.user.js
 [2]: https://github.com/taylordotfish/userscripts/raw/master/mediafire.user.js
 [3]: droplr.user.js
@@ -44,6 +51,8 @@ List of userscripts
 [6]: https://github.com/taylordotfish/userscripts/raw/master/dropbox.user.js
 [7]: google-drive.user.js
 [8]: https://github.com/taylordotfish/userscripts/raw/master/google-drive.user.js
+[9]: noscript.user.js
+[10]: https://github.com/taylordotfish/userscripts/raw/master/noscript.user.js
 
 
 Installing
