@@ -48,6 +48,11 @@ List of userscripts
   \[[Download/Install][12]\]\
   Download files from Sellfy (sellfy.com).
 
+* **pCloud**
+  ([pcloud.user.js][13])
+  \[[Download/Install][14]\]\
+  Download files from pCloud (pcloud.com, pc.cd).
+
 [1]: mediafire.user.js
 [2]: https://github.com/taylordotfish/userscripts/raw/master/mediafire.user.js
 [3]: droplr.user.js
@@ -60,6 +65,8 @@ List of userscripts
 [10]: https://github.com/taylordotfish/userscripts/raw/master/noscript.user.js
 [11]: sellfy.user.js
 [12]: https://github.com/taylordotfish/userscripts/raw/master/sellfy.user.js
+[13]: pcloud.user.js
+[14]: https://github.com/taylordotfish/userscripts/raw/master/pcloud.user.js
 
 
 Installing
