@@ -43,6 +43,11 @@ List of userscripts
   work without JavaScript only if \<noscript\> tags are shown, but some script
   blockers might not show them.
 
+* **Sellfy**
+  ([sellfy.user.js][11])
+  \[[Download/Install][12]\]\
+  Download files from Sellfy (sellfy.com).
+
 [1]: mediafire.user.js
 [2]: https://github.com/taylordotfish/userscripts/raw/master/mediafire.user.js
 [3]: droplr.user.js
@@ -53,6 +58,8 @@ List of userscripts
 [8]: https://github.com/taylordotfish/userscripts/raw/master/google-drive.user.js
 [9]: noscript.user.js
 [10]: https://github.com/taylordotfish/userscripts/raw/master/noscript.user.js
+[11]: sellfy.user.js
+[12]: https://github.com/taylordotfish/userscripts/raw/master/sellfy.user.js
 
 
 Installing
