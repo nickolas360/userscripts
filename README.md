@@ -53,6 +53,11 @@ List of userscripts
   \[[Download/Install][14]\]\
   Download files from pCloud (pcloud.com, pc.cd).
 
+* **SampleSwap**
+  ([sampleswap.user.js][15])
+  \[[Download/Install][16]\]\
+  Operate SampleSwap (sampleswap.org).
+
 [1]: mediafire.user.js
 [2]: https://github.com/taylordotfish/userscripts/raw/master/mediafire.user.js
 [3]: droplr.user.js
@@ -67,6 +72,8 @@ List of userscripts
 [12]: https://github.com/taylordotfish/userscripts/raw/master/sellfy.user.js
 [13]: pcloud.user.js
 [14]: https://github.com/taylordotfish/userscripts/raw/master/pcloud.user.js
+[15]: sampleswap.user.js
+[16]: https://github.com/taylordotfish/userscripts/raw/master/sampleswap.user.js
 
 
 Installing
