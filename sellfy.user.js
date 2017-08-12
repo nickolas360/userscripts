@@ -3,7 +3,7 @@
 // @namespace   https://taylor.fish/userscripts/
 // @description Download files from Sellfy (sellfy.com).
 // @match       *://sellfy.com/p/*
-// @version     0.1.0
+// @version     0.1.1
 // @grant       GM_xmlhttpRequest
 // ==/UserScript==
 
@@ -55,6 +55,8 @@
     }
 
     var submit = document.getElementById("submit_checkout");
+    submit.innerHTML = "Download/Buy";
+
     var form = document.getElementById("billing_information");
     form.elements.save.value = "true";
     form.elements.payer_email.required = true;
