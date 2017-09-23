@@ -58,6 +58,11 @@ List of userscripts
   \[[Download/Install][16]\]\
   Operate SampleSwap (sampleswap.org).
 
+* **Zippyshare**
+  ([zippyshare.user.js][17])
+  \[[Download/Install][18]\]\
+  Download files from Zippyshare (zippyshare.com).
+
 [1]: mediafire.user.js
 [2]: https://github.com/taylordotfish/userscripts/raw/master/mediafire.user.js
 [3]: droplr.user.js
@@ -74,6 +79,8 @@ List of userscripts
 [14]: https://github.com/taylordotfish/userscripts/raw/master/pcloud.user.js
 [15]: sampleswap.user.js
 [16]: https://github.com/taylordotfish/userscripts/raw/master/sampleswap.user.js
+[17]: zippyshare.user.js
+[18]: https://github.com/taylordotfish/userscripts/raw/master/zippyshare.user.js
 
 
 Installing
