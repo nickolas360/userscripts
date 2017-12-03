@@ -66,7 +66,7 @@ List of userscripts
 * **Deltaprintr**
   ([deltaprintr.user.js][19])
   \[[Download/Install][20]\]\
-  Fix blank pages on deltaprintr.com.
+  Operate and fix blank pages on deltaprintr.com.
 
 [1]: mediafire.user.js
 [2]: https://github.com/taylordotfish/userscripts/raw/master/mediafire.user.js

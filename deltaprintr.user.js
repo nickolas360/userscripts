@@ -3,7 +3,7 @@
 // @namespace   https://taylor.fish/userscripts/
 // @description Fix blank pages on deltaprintr.com.
 // @match       *://deltaprintr.com/*
-// @version     0.1.0
+// @version     0.1.1
 // @grant       none
 // ==/UserScript==
 
@@ -53,4 +53,9 @@
         + "    }"
         + "</style>"
     );
+
+    var shipForms = document.querySelectorAll(".shipping-calculator-form");
+    Array.prototype.slice.call(shipForms).forEach(function(form) {
+        form.style.display = "block";
+    });
 })();
