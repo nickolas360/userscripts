@@ -3,8 +3,9 @@
 // @namespace   https://taylor.fish/userscripts/
 // @description Download files from Sellfy (sellfy.com).
 // @match       *://sellfy.com/p/*
-// @version     0.1.1
+// @version     0.1.2
 // @grant       GM_xmlhttpRequest
+// @grant       GM.xmlHttpRequest
 // ==/UserScript==
 
 /*
@@ -41,6 +42,10 @@
  */
 
 (function() {
+    var sendXHR;
+    if (typeof(GM) !== "undefined") sendXHR = GM.xmlHttpRequest;
+    if (sendXHR == null) sendXHR = GM_xmlhttpRequest;
+
     var linkButtons = document.querySelectorAll("button[href]");
     for (var i = 0; i < linkButtons.length; i++) {
         var link = document.createElement("a");
@@ -67,7 +72,7 @@
     submit.addEventListener("click", function(event) {
         event.preventDefault();
         if (!form.reportValidity()) return;
-        GM_xmlhttpRequest({
+        sendXHR({
             url: location.origin + "/order_draft/",
             method: "POST",
             data: urlEncodeForm(form),
@@ -87,7 +92,7 @@
     });
 
     function download(key) {
-        GM_xmlhttpRequest({
+        sendXHR({
             url: location.origin + "/payments/download/",
             method: "POST",
             data: urlEncode({"draft": key}),

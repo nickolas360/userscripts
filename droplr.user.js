@@ -3,8 +3,9 @@
 // @namespace   https://taylor.fish/userscripts/
 // @description Download files from Droplr (d.pr).
 // @match       *://d.pr/*
-// @version     0.1.0
+// @version     0.1.1
 // @grant       GM_xmlhttpRequest
+// @grant       GM.xmlhttpRequest
 // ==/UserScript==
 
 /*
@@ -41,6 +42,10 @@
  */
 
 (function() {
+    var sendXHR;
+    if (typeof(GM) !== "undefined") sendXHR = GM.xmlHttpRequest;
+    if (sendXHR == null) sendXHR = GM_xmlhttpRequest;
+
     var button = document.querySelector("a.button.download");
     if (button == null) return;
     var url = (
@@ -53,7 +58,7 @@
 
     button.addEventListener("click", function(event) {
         event.preventDefault();
-        GM_xmlhttpRequest({
+        sendXHR({
             url: url,
             method: "GET",
             headers: {
