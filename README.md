@@ -69,25 +69,25 @@ List of userscripts
   Operate and fix blank pages on deltaprintr.com.
 
 [1]: mediafire.user.js
-[2]: https://github.com/taylordotfish/userscripts/raw/master/mediafire.user.js
+[2]: https://taylor.fish/userscripts/mediafire.user.js
 [3]: droplr.user.js
-[4]: https://github.com/taylordotfish/userscripts/raw/master/droplr.user.js
+[4]: https://taylor.fish/userscripts/droplr.user.js
 [5]: dropbox.user.js
-[6]: https://github.com/taylordotfish/userscripts/raw/master/dropbox.user.js
+[6]: https://taylor.fish/userscripts/dropbox.user.js
 [7]: google-drive.user.js
-[8]: https://github.com/taylordotfish/userscripts/raw/master/google-drive.user.js
+[8]: https://taylor.fish/userscripts/google-drive.user.js
 [9]: noscript.user.js
-[10]: https://github.com/taylordotfish/userscripts/raw/master/noscript.user.js
+[10]: https://taylor.fish/userscripts/noscript.user.js
 [11]: sellfy.user.js
-[12]: https://github.com/taylordotfish/userscripts/raw/master/sellfy.user.js
+[12]: https://taylor.fish/userscripts/sellfy.user.js
 [13]: pcloud.user.js
-[14]: https://github.com/taylordotfish/userscripts/raw/master/pcloud.user.js
+[14]: https://taylor.fish/userscripts/pcloud.user.js
 [15]: sampleswap.user.js
-[16]: https://github.com/taylordotfish/userscripts/raw/master/sampleswap.user.js
+[16]: https://taylor.fish/userscripts/sampleswap.user.js
 [17]: zippyshare.user.js
-[18]: https://github.com/taylordotfish/userscripts/raw/master/zippyshare.user.js
+[18]: https://taylor.fish/userscripts/zippyshare.user.js
 [19]: deltaprintr.user.js
-[20]: https://github.com/taylordotfish/userscripts/raw/master/deltaprintr.user.js
+[20]: https://taylor.fish/userscripts/deltaprintr.user.js
 
 
 Installing
